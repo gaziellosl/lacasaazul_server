@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "name": "flarin_bot",
+  "name": "lacasaazul_server",
   "builds": [
-       { "src": "*.js", "use": "@now/node-server" }
+       { "src": "*.js",
+         "use": "@now/node-server"
+       }
    ],
    "routes": [
-        { "src": "/(.*)", "dest": "index.js" }
+        { "src": "/(.*)",
+          "dest": "index.js"
+        }
     ],
 }
